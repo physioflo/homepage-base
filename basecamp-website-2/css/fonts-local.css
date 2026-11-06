@@ -1,0 +1,11 @@
+/* Lokale Schriften (DSGVO-freundlich).
+   1) Barlow + Barlow Condensed als .woff2 in /assets/fonts ablegen (z. B. über gwfh.mranftl.com)
+   2) In allen HTML-Dateien den Google-Fonts-<link> durch <link rel="stylesheet" href="css/fonts-local.css"> ersetzen. */
+
+@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:local("Barlow Condensed SemiBold"),url("../assets/fonts/barlow-condensed-600.woff2") format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:local("Barlow Condensed Bold"),url("../assets/fonts/barlow-condensed-700.woff2") format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:800;font-display:swap;src:local("Barlow Condensed ExtraBold"),url("../assets/fonts/barlow-condensed-800.woff2") format("woff2")}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:local("Barlow Regular"),url("../assets/fonts/barlow-400.woff2") format("woff2")}
+@font-face{font-family:"Barlow";font-weight:500;font-display:swap;src:local("Barlow Medium"),url("../assets/fonts/barlow-500.woff2") format("woff2")}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:local("Barlow SemiBold"),url("../assets/fonts/barlow-600.woff2") format("woff2")}
+

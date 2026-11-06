@@ -1,0 +1,23 @@
+BASECAMP – Website (basecamp-pongau.at)
+========================================
+
+HOCHLADEN
+Den gesamten Inhalt dieses Ordners (nicht den Ordner selbst) per FTP oder
+Datei-Manager deines Webhosters in das Hauptverzeichnis von basecamp-pongau.at
+laden. index.html ist die Startseite.
+
+VOR DEM LIVEGANG ERGÄNZEN (gelb markiert in Impressum/Datenschutz)
+- Straße & Hausnummer des Standorts in Mitterberghütten
+- Nummer im Gesundheitsberuferegister, ggf. UID-Nummer
+- Name des Hosting-Anbieters (Datenschutz)
+- Porträtfoto: assets/img/florian.jpg ablegen, Zeile in index.html aktivieren
+- E-Mail-Adresse info@basecamp-pongau.at einrichten (oder ändern lassen)
+
+SCHRIFTEN LOKAL (DSGVO)
+Barlow + Barlow Condensed als .woff2 in assets/fonts ablegen und in allen
+HTML-Dateien den Google-Fonts-Link durch
+<link rel="stylesheet" href="css/fonts-local.css"> ersetzen.
+
+NACH DEM LIVEGANG
+- Google Search Console: Domain bestätigen, sitemap.xml einreichen
+- Google Unternehmensprofil "Basecamp" anlegen und auf die Website verlinken
